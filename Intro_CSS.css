@@ -1,0 +1,247 @@
+@font-face {
+  font-family: "TheJamsil5Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: TheJamsil5Bold;
+  overflow-x: hidden;
+}
+
+button{
+  all: unset;
+
+}
+
+#sidebar {
+  position: fixed;
+  background-color: #4b3d44;
+  width: 10rem;
+  height: 46rem;
+  text-align: center;
+  margin-top: -0.48rem;
+  margin-left: -0.48rem;
+}
+#profile_img {
+  margin-top: 1rem;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 70%;
+}
+
+#tabs {
+  margin-top: 3rem;
+}
+
+.tab_Item {
+  color: gray;
+  margin-bottom: 6rem;
+  margin-left: -2.7rem;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1rem;
+}
+
+.tab_move {
+  all: unset;
+  transition: color 0.5s;
+  transition: font-size 0.5s;
+}
+
+.container {
+  overflow-y: scroll auto;
+  scroll-snap-type: y mandatory;
+}
+
+.Item {
+  scroll-snap-align: start;
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+#one {
+  position: absolute;
+  left: 160px;
+  top: 0rem;
+  width: 1359px;
+  height: 721px;
+  background-color: #4b726e;
+  text-align: center;
+}
+#two {
+  position: absolute;
+  left: 160px;
+  top: 721px;
+  width: 1359px;
+  height: 721px;
+  background-color: #79444a;
+  text-align: left;
+}
+#three {
+  position: absolute;
+  left: 160px;
+  top: 1442px;
+  width: 1359px;
+  height: 721px;
+  background-color: #b3a555;
+  
+}
+
+/* First section */
+#one_content_head {
+  color: #141b20;
+  left: 20rem;
+  margin-top: 15rem;
+  font-size: 5rem;
+  text-align: center;
+}
+
+#one_content_body {
+  color: #232e35;
+  left: 20rem;
+  margin-top: 6rem;
+  font-size: 2rem;
+}
+
+/* Second section */
+#two_content_head {
+  color: #1c0f12;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  font-size: 4rem;
+}
+
+#two_content_body {
+  color: #191724;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+/* tabs */
+
+#discript {
+  position: absolute;
+  margin-left: 15rem;
+  margin-top: -7rem;
+}
+
+#tab_btn {
+  margin-left: 20rem;
+  margin-top: 2rem;
+}
+
+.direct_btn {
+  width: 5rem;
+  height: 5rem;
+  text-decoration: none;
+  all: unset;
+}
+
+.img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  margin-right: 23rem;
+}
+
+.right_tab {
+  opacity: 50%;
+  margin-left: 42rem;
+  margin-top: -4rem;
+  position: absolute;
+}
+.left_tab {
+  opacity: 50%;
+  margin-left: 27rem;
+  margin-top: -4rem;
+  position: absolute;
+}
+
+.middle_tab {
+  opacity: 50%;
+  margin-left: 34.5rem;
+  margin-top: -4rem;
+  position: absolute;
+}
+
+.sel_tab_pic {
+  opacity: 100%;
+  margin-top: -2rem;
+  position: absolute;
+}
+
+.tab_pic {
+  width: 5rem;
+  transition: all 0.5s;
+}
+
+.tab_dis {
+  font-family: TheJamsil5Bold;
+  position: absolute;
+  position: absolute;
+  margin-top: 4rem;
+  margin-left: 25rem;
+  transition: all 0.5s;
+  opacity: 0%;
+}
+
+.sel_dis {
+  opacity: 100%;
+}
+
+#Intro_dis_1 {
+  position: absolute;
+  margin-left: -10rem;
+}
+
+.skill_lang {
+  position: absolute;
+  margin-left: 7rem;
+}
+
+#love_dis_1 {
+  display: inline;
+  position: absolute;
+  margin-left: -10rem;
+  margin-top: 2rem;
+}
+
+/* three */
+.Etc_btn{
+  width: 10rem;
+  padding-left: 20rem;
+  padding-top: 15rem;
+  flex-direction: column;
+  display: flex;
+}
+
+#share{
+  position: absolute;
+  width: 15rem;
+  margin-top: 13.1rem;
+  margin-left: 50rem;
+}
+.github{
+  position: absolute;
+  width: 15rem;
+  text-decoration: none;
+  color: black;
+  top: 7rem;
+  left: 10rem;
+}
+
+/* etc */
+.name {
+  color: #b3a555;
+}
+
+#likes {
+  display: flex;
+}
+
+#custom_1_likes {
+  margin-left: -6rem;
+}
